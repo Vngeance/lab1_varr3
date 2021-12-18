@@ -145,7 +145,6 @@ int main()
 	int gx_l = degree_counter(gx1);
 	int d = degree_counter(gx1);
 	int m = l1 * pow(2, gx_l);
-	int cx = poly_div(m, gx1);
 	int* A = new int[degree_counter(m)];
 	A = A_counter(gx1, d, l1);
 	int n = degree_counter(m) + 1;
